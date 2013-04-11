@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="15px"
+    android:keyHeight="@dimen/key_height"
+    >
+
+    <Row>
+        <Key android:codes="4161" android:keyOutputText="၁" android:keyIcon="@drawable/c4161"  android:keyEdgeFlags="left"/>
+        <Key android:codes="4162" android:keyOutputText="၂" android:keyIcon="@drawable/c4162" />
+        <Key android:codes="4163" android:keyOutputText="၃" android:keyIcon="@drawable/c4163" />
+        <Key android:codes="4164" android:keyOutputText="၄" android:keyIcon="@drawable/c4164"/>
+        <Key android:codes="4165" android:keyOutputText="၅" android:keyIcon="@drawable/c4165"/>
+        <Key android:codes="4166" android:keyOutputText="၆" android:keyIcon="@drawable/c4166"/>
+        <Key android:codes="4167" android:keyOutputText="၇" android:keyIcon="@drawable/c4167"/>
+        <Key android:codes="4168" android:keyOutputText="၈" android:keyIcon="@drawable/c4168"/>
+        <Key android:codes="4169" android:keyOutputText="၉" android:keyIcon="@drawable/c4169"/>
+        <Key android:codes="4160" android:keyOutputText="၀" android:keyIcon="@drawable/c4160" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="4107" android:keyOutputText="ဋ" android:keyIcon="@drawable/c4107" android:keyEdgeFlags="left"/>
+        <Key android:codes="4109" android:keyOutputText="ဍ" android:keyIcon="@drawable/c4109"/>
+        <Key android:codes="4110" android:keyOutputText="ဎ" android:keyIcon="@drawable/c4110"/>
+        <Key android:codes="4138" android:keyOutputText="ဪ" android:keyIcon="@drawable/c4138"/>
+        <Key android:codes="4137" android:keyOutputText="ဩ" android:keyIcon="@drawable/c4137"/>
+        <Key android:codes="4134" android:keyOutputText="ဦ" android:keyIcon="@drawable/c4134"/>
+        <Key android:codes="4131" android:keyOutputText="ဣ" android:keyIcon="@drawable/c4131"/>
+        <Key android:codes="4104" android:keyOutputText="ဈ" android:keyIcon="@drawable/c4104"/>
+        <Key android:codes="4159" android:keyOutputText="ဿ" android:keyIcon="@drawable/c4159"/>
+        <Key android:codes="45" android:keyLabel="-" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1" android:keyIcon="@drawable/sym_keyboard_shift_holo"
+                android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <!--android:isModifier="true" android:isSticky="true" -->
+        <Key android:codes="47" android:keyLabel="/" />
+        <Key android:codes="33" android:keyLabel="!" />
+        <Key android:codes="42" android:keyLabel="*"/>
+        <Key android:codes="35" android:keyLabel="#"/>
+        <Key android:codes="44" android:keyLabel=","/>
+        <Key android:codes="40" android:keyLabel="("/>
+        <Key android:codes="41" android:keyLabel=")"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete_holo"
+                android:keyWidth="15%p" android:keyEdgeFlags="right"
+                android:isRepeatable="true"/>
+    </Row>
+    
+    <Row  android:rowEdgeFlags="bottom">
+        <Key android:codes="-2" android:keyIcon="@drawable/chg_alp" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="-6" android:keyIcon="@drawable/sym_keyboard_language_switch" />
+        <Key android:codes="4153" android:keyIcon="@drawable/c4153" />        
+        <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space_holo" 
+                android:keyWidth="30%p" android:isRepeatable="true"/>
+        <Key android:codes="64" android:keyLabel="\@"/>
+        <Key android:codes="38" android:keyLabel="&amp;"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return_holo" 
+                android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
